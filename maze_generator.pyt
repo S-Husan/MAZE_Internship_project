@@ -33,3 +33,4 @@ with open("maze.txt", "w", encoding="utf8") as f:
 print("\nGenerated Maze:\n")
 for row in maze:
     print("".join(row))
+    
