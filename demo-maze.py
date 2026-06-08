@@ -43,6 +43,6 @@ def print_visual_maze(matrix):
                 row_str += "·"  # Path dots from your drawing
         print(row_str)
 
-if name == "main":
+if __name__ == "__main__":
     print_binary_matrix(maze)
     print_visual_maze(maze)
